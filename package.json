@@ -1,7 +1,7 @@
 {
-  "name": "sopping-cart-project",
+  "name": "shopping-cart-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,8 +17,8 @@
     "react-redux": "^9.3.0",
     "react-router": "^8.3.0",
     "react-toastify": "^11.1.0",
-    "tailwindcss": "^4.3.3",
-    "toastify": "^2.0.1"
+    "toastify": "^2.0.1",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
