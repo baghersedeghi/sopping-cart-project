@@ -1,60 +1,99 @@
 # 🛒 Shopping Cart — React E-Commerce UI
 
-یک پروژه فروشگاهی مدرن با **React** و **Vite** که با تمرکز روی مدیریت state، مسیریابی و ساختار component-based توسعه داده شده است.
+A modern, responsive e-commerce frontend built with **React** and **Vite**. The project focuses on reusable components, client-side routing, global state management, and a clean shopping-cart experience.
 
-## ✨ ویژگی‌ها
+## ✨ Features
 
-- 🛍️ رابط کاربری فروشگاهی و نمایش محصولات
-- 🧩 معماری مبتنی بر React Components
-- 🗂️ مدیریت state با Redux Toolkit و React Redux
-- 🧭 مسیریابی با React Router
-- 🔔 نمایش notification با React Toastify
-- 🎨 استایل‌دهی با Tailwind CSS
-- ⚡ توسعه و build سریع با Vite
-- 🧹 تنظیم ESLint برای کیفیت بهتر کد
+- Product listing with responsive card layout
+- Add products to a global shopping cart
+- Cart item count displayed in the navigation header
+- Dedicated Products and Cart pages
+- Client-side routing with React Router
+- Global state management with Redux Toolkit
+- Toast notifications for user feedback
+- Responsive UI with Tailwind CSS
+- Accessible navigation and interactive controls
+- Production build and ESLint configuration
 
-## 🛠️ تکنولوژی‌ها
+## 🧰 Tech Stack
 
 - React 19
 - Vite
-- Redux Toolkit
-- React Redux
 - React Router
+- Redux Toolkit + React Redux
 - Tailwind CSS
 - React Toastify
 - ESLint
 
-## 🚀 اجرا در سیستم
-
-```bash
-npm install
-npm run dev
-```
-
-برای build نسخه production:
-
-```bash
-npm run build
-```
-
-## 📁 ساختار پروژه
+## 📁 Project Structure
 
 ```text
 src/
 ├── components/
+│   ├── Header.jsx
+│   └── ProductList.jsx
 ├── pages/
+│   ├── Home.jsx
+│   └── Cart.jsx
 ├── redux/
+│   ├── cartSlice.js
+│   ├── productSlice.js
+│   └── store.js
 ├── App.jsx
 ├── main.jsx
 └── index.css
 ```
 
-## 🎯 هدف پروژه
+## 🚀 Getting Started
 
-این پروژه برای تمرین و نمایش مهارت‌های Front-End در توسعه یک رابط فروشگاهی با React، مدیریت state و ساختاردهی یک پروژه واقعی‌تر طراحی شده است.
+### Installation
 
-## 👨‍💻 توسعه‌دهنده
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Production build
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## 🌐 Live Demo
+
+https://courageous-ganache-7e4527.netlify.app/
+
+## 🎯 What I Practiced
+
+This project was built to strengthen practical frontend development skills, especially:
+
+- Designing reusable React components
+- Managing shared application state with Redux Toolkit
+- Structuring pages and components in a scalable way
+- Implementing client-side navigation
+- Building responsive interfaces with Tailwind CSS
+- Handling user feedback with toast notifications
+- Writing cleaner, maintainable frontend code
+
+## 👨‍💻 Author
 
 **Bagher Sedeghi**
 
-GitHub: https://github.com/baghersedeghi
+- GitHub: https://github.com/baghersedeghi
